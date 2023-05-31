@@ -1,5 +1,5 @@
 # qoutation
-aar包含两个UI控件
+aar包含两个UI控件  
 #DiscretionaryStockView
 ##自选股View
 ~
