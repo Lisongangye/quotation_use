@@ -59,7 +59,7 @@ DiscretionaryStockView discretionaryStockView = ((DiscretionaryStockView) findVi
     public void setMqttData(String mqttData);
 ~~~
 ##### FAVORITEJSON数据协议如下
-~~~java
+~~~ java
 [
     {
         "assetId": "00700.HK", // 股票代码
