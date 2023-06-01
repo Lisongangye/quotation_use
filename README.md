@@ -33,7 +33,9 @@ DiscretionaryStockView discretionaryStockView = ((DiscretionaryStockView) findVi
             }
 
             @Override
-            public void fetchFaroviteData() {
+            public void marketChange(int market) {
+                ///tab切换市场回调，
+                ///market 0 : ALL, 1 : HK, 2 : US,3 : A
             }
         });  
 ~~~
