@@ -31,6 +31,11 @@ DiscretionaryStockView discretionaryStockView = ((DiscretionaryStockView) findVi
                discretionaryStockView.removeStock(stockBean.getAssetId());
 
             }
+             @Override
+            public void visibleStocks(List<String> assetIds) {
+                //可见股票的股票ID列表回调，通过该列表做MQTT Topic的是否断或连
+
+            }
 
             @Override
             public void marketChange(int market) {
