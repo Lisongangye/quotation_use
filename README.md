@@ -1,4 +1,4 @@
-## qoutation  
+## quotation  
 aar文件放到lib文件夹下，build.gradle 添加如下    
 implementation(name: 'quotations-release-1.1', ext: 'aar')
   
