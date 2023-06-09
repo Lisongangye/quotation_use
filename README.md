@@ -8,7 +8,7 @@ implementation(name: 'quotations-release-1.1', ext: 'aar')
 ### 使用方法
 ~~~ xml
 布局引用
-<com.qoutation.favorite.view.DiscretionaryStockView
+<com.quotation.favorite.view.DiscretionaryStockView
         android:id="@+id/discretionaryview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>  
@@ -86,7 +86,7 @@ DiscretionaryStockView discretionaryStockView = ((DiscretionaryStockView) findVi
 ### 使用方法
 ~~~ xml
 布局应用
-<com.qoutation.stockdetail.view.StockDetailView
+<com.quotation.stockdetail.view.StockDetailView
         android:id="@+id/stockdetailview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
