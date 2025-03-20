@@ -17,6 +17,8 @@ implementation(name: 'quotations-release-1.4', ext: 'aar')
 DiscretionaryStockView discretionaryStockView = ((DiscretionaryStockView) findViewById(R.id.discretionaryview));
         //设置自选股数据
         discretionaryStockView.setDataJson(FAVORITEJSON);
+        //设置涨跌颜色
+        discretionaryStockView.setColors(0xFFFF0000, 0xFF00FF00);
         //设置回调
         discretionaryStockView.setFavoriteCallBack(new FavoriteCallBack() {
             @Override
@@ -93,6 +95,8 @@ DiscretionaryStockView discretionaryStockView = ((DiscretionaryStockView) findVi
 ~~~
 ~~~ java  
         mStockDetailView = findViewById(R.id.stockdetailview);
+        //设置涨跌的文字颜色和K线颜色
+        mStockDetailView.setColors(0xFFFF0000, 0xFF00FF00, 0xFFFF0000, 0xFF00FF00);
         //设置股票代码
         mStockDetailView.setAssetId("00700.HK");
         //主动获取行情数据以及分时数据，传递给UI组件
