@@ -49,7 +49,7 @@ DiscretionaryStockView discretionaryStockView = ((DiscretionaryStockView) findVi
 ##### DiscretionaryStockView 公开方法
 ~~~ java
    /**
-     * 自选股
+     * 自选股 
      * 设置json数据
      * @param jsonData 自选股数据json
      */
